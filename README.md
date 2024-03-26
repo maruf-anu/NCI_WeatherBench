@@ -25,7 +25,7 @@ cd /to/a/Gadi/location
 git clone https://github.com/maruf-anu/NCI_WeatherBench.git
 ```
 
-2) Launch an ARE instance with the following parameters. 
+2) Launch an NCI ARE (https://are.nci.org.au) Jupyter instance with the following parameters. 
 ```bash
 Walltime (hours): <As required>
 Queue: gpuvolta
