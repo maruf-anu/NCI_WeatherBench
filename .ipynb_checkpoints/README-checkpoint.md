@@ -1,7 +1,7 @@
 # NCI WeatherBench Notebooks
 
 This repository contains notebooks for NCI WeatherBench, which is a Deep learning benchmark developed at NCI, Australia. 
-It is created using the Pangeo data specification (https://github.com/pangeo-data/WeatherBench); however, the data spans from 1959 to 2022, which is 50% more compared to that of the original benchmark.
+It is created using the Pangeo data specification (https://github.com/pangeo-data/WeatherBench); however, the data spans from 1959 to 2022, which is 50% more compared to that of the original one.
 It is about 10TB in size and was created completely using the NCI high-performance compute and disk resources, to the best of our knowledge it is first the Australian Deep learning benchmark of this size.  
 Details about the benchmark can be found here: https://geonetwork.nci.org.au/geonetwork/srv/eng/catalog.search#/metadata/f8295_5164_0873_0706  
 
@@ -59,4 +59,5 @@ Jobfs size: 200GB
 **Note**
 - Depending on the code, each notebook may take from 30 minutes to 2 hours to run. 
 - When a notebook is finished, reset it to free the memory before running the next one. Otherwise, you may run out of memory.
-- If a notebook runs out of memory, the system automatically restarts it. If you find this happening to you, then simply start a custom notebook with a bigger memory. 
+- If a notebook runs out of memory, the system automatically restarts it. If you find this is happening to you, then simply start a bigger/custom ARE instance with more memory. 
+- All created models and predictions are stored in the following directory: `/scratch/vp91/<USER>/NCI-Weatherbench/`. The `vp91` is a training project and is cleaned at regular intervals. If you want to save your data then copy it to a safe location. Alternatively, one can set a different location (`PREDDIR` variable) at the top of each notebook.
