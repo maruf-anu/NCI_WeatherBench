@@ -51,6 +51,10 @@ Jobfs size: 200GB
 
 - `3b.cnn-example.ipynb`: Similar to the previous CNN model, however, trains three different models, a 3-day, 5-day, and 6-hour iterative prediction model.
 
+- `3c.cnn-example.ipynb`: Pytorch implementation of the `3a.cnn-example.ipynb` notebook 
+
+- `3d.cnn-example.ipynb`: Pytorch implementation of the `3b.cnn-example.ipynb` notebook 
+
 - `4a.evaluation-checkpoint.ipynb`: Creates and saves prediction and calculates accuracy for all previous models (persistence, climatology, linear regression, and CNN)
 
 - `4b.evaluation-checkpoint.ipynb`: Displays the results produced in the previous notebook.
